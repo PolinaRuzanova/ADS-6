@@ -19,7 +19,7 @@ class TPQueue {
         }
     T pop() {
         return arr[(first++) % size];
-    } 
+    }
 };
 
 struct SYM {
